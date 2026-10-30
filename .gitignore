@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+ui-*.png
+build/
+legacy-build/
+ExcelAI-Desktop/
+dist/
+*.spec
+
+# Local application data and secrets
+settings.json
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# User data and generated exports
+outputs/
+output/
+*.csv
+*.xlsx
+!sample_data.xlsx
+
+.coverage
+htmlcov/
+.test-tmp/
